@@ -1,7 +1,7 @@
 baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Beautiful Hugo"
+title = "Yi Dang"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -15,10 +15,10 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "This is a sample blog"
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
+  logo = "img/123123.jpg" # Expecting square dimensions
+  favicon = "img/123123123.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
@@ -46,33 +46,33 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   name = "Some Person"
-  website = "yourwebsite.com"
+  # website = "yourwebsite.com"
   email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
+  # facebook = "username"
+  # github = "username"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # twitter = "username"
+  # reddit = "username"
+  # linkedin = "username"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # slack = "username"
 
 [[menu.main]]
     name = "Blog"
@@ -81,30 +81,30 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
-    weight = 3
+    url = "about/about2"
+    weight = 2
 
 [[menu.main]]
     identifier = "samples"
     name = "Samples"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    name = "1st post"
+    url = "posts/my-first-post"
     weight = 1
 
 [[menu.main]]
     parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
+    name = "2nd post"
+    url = "posts/my-second-post"
     weight = 2
 
 [[menu.main]]
     parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
+    name = "3rd post"
+    url = "posts/my-third-post"
     weight = 3
 
 [[menu.main]]
